@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="2.5" type="template" method="upgrade">
+	<name>bsd4j</name>
+	<creationDate>2013-02-22</creationDate>
+	<author>Liang Sun</author>
+	<authorEmail>sunly917@gmail.com</authorEmail>
+	<authorUrl>gonewiththesun.blogspot.com</authorUrl>
+	<copyright>Copyright (C) 2013 Lyon</copyright>
+	<version>1.0</version>
+	<description>
+		<![CDATA[
+			<p>bsd4j is a bootstrap framework driven template for Joomla.</p>
+		]]>
+	</description>
+
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-xyz</position>
+	</positions>
+</install>
