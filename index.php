@@ -39,7 +39,7 @@
                     <?php echo $app->getCfg('sitename'); ?>
                 </a>
                 <div class="nav-collapse collapse">
-                    <jdoc:include type="modules" name="position-7" style="none" />
+                    <jdoc:include type="modules" name="navbar" style="none" />
                 </div><!-- /.nav-collapse -->
             </div>
         </div><!-- /navbar-inner -->
