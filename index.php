@@ -14,9 +14,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap.css">
 
     <style type="text/css">
-        .navbar-inner {
-            background: #ff0000;
-        }
+        
     </style>
 
     <link rel="stylesheet" type="text/css" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap-responsive.css">
