@@ -5,12 +5,6 @@
     $app = JFactory::getApplication();
     $doc = JFactory::getDocument();
 
-    //testing
-    // $templateparams = $app->getTemplate(true)->params;
-    // echo "<pre>";
-    // print_r($this->countModules());
-    // echo "</pre>";
-    // die();
 ?>
 
 <!DOCTYPE html>
