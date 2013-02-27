@@ -26,7 +26,28 @@
     <link rel="shortcut icon" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/ico/favicon.png">
 </head>
 <body>
-    
+    <!-- navigation bar -->
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container" style="width: auto;">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">
+                    <?php echo $app->getCfg('sitename'); ?>
+                </a>
+                <div class="nav-collapse collapse">
+                    <jdoc:include type="modules" name="position-7" style="none" />
+                </div><!-- /.nav-collapse -->
+            </div>
+        </div><!-- /navbar-inner -->
+    </div>
+
+    <div class="container">
+        <jdoc:include type="component" />
+    </div>
 
     <!-- place script on the bottom so that the page will load faster -->
     <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery.js"></script>
