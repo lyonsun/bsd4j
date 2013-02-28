@@ -12,7 +12,9 @@ defined('_JEXEC') or die;
 // Note. It is important to remove spaces between elements.
 ?>
 
-<ul class="menu<?php echo $class_sfx;?>"<?php
+<!-- it is necessary to modify this file so that the navbar fits bootstrap framework -->
+
+<ul class="menu<?php echo $class_sfx;?> nav"<?php
 	$tag = '';
 	if ($params->get('tag_id')!=NULL) {
 		$tag = $params->get('tag_id').'';
