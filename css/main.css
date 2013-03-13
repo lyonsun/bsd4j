@@ -1,29 +1,43 @@
 body {
     background: url('../img/5fu.png') fixed #860e00;
-    /*color: #fff;*/
+    font-family: 'Merienda', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+    /*color:#444;*/
+}
+
+.well {
+
 }
 
 a {
     color:#000;
 }
 
+a:hover,
+a:focus {
+    color:#860e00;
+    text-decoration: none;
+}
+
 footer {
-    float: right;
-    padding: 0px 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-top:1px solid #eee;
 }
 
 img.intro {
     min-width: 100%;
-    padding: 0px 0px 20px 0px;
 }
 
 .main {
     background: #fff;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .collapse.in {
 	padding-top: 10px;
+    float: none;
 }
 
 .navbar-fixed-top {
@@ -32,11 +46,12 @@ img.intro {
 
 .navbar .navbar-inner {
     background: url('../img/5fu.png') #860e00;
+    opacity: 0.9;
     border:1px solid #860e00;
     box-shadow: 0px 1px 10px rgba(5, 0, 0, 1);
     padding: 10px 0px;
-    font-family: Apple Chancery;
-    font-size: 20px;
+    /*font-family: 'Merienda', cursive;*/
+    /*font-size: 20px;*/
 }
 
 .navbar .nav > .active > a,
@@ -46,12 +61,18 @@ img.intro {
   text-decoration: none;
   background-color: #fff;
   -webkit-border-radius: 50px;
-	   -moz-border-radius: 50px;
-		      border-radius: 50px;
+     -moz-border-radius: 50px;
+	      border-radius: 50px;
 
-  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 3px 8px rgba(134, 14, 0, 0.85);
+     -moz-box-shadow: inset 0 3px 8px rgba(134, 14, 0, 0.85);
+          box-shadow: inset 0 3px 8px rgba(134, 14, 0, 0.85);
+}
+
+.navbar .nav a:hover {
+      -webkit-box-shadow: inset 0 3px 8px rgba(134, 14, 0, 0.85);
+         -moz-box-shadow: inset 0 3px 8px rgba(134, 14, 0, 0.85);
+              box-shadow: inset 0 3px 8px rgba(134, 14, 0, 0.85);
 }
 
 .navbar-fixed-top {
@@ -59,21 +80,24 @@ img.intro {
 }
 
 .navbar-fixed-top .navbar-inner {
-	box-shadow: 0px 1px 10px rgba(5, 0, 0, 1);
+	box-shadow: 0px 5px 10px rgba(5, 0, 0, 1);
 }
 
 .navbar .nav > li > a{
 	color:#fff;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #aaa;
 }
 
 .navbar .brand {
-	text-shadow:1px 0px 0px #fa0;
+    /*text-shadow:5px 5px 5px #fff;*/
+	text-shadow:1px 1px 1px #fa0;
 	color:#fff;
 }
 
 .navbar .nav > li > a:focus, 
 .navbar .nav > li > a:hover {
-	color:#777;
+	color:#000;
   -webkit-border-radius: 50px;
      -moz-border-radius: 50px;
           border-radius: 50px;
@@ -86,19 +110,35 @@ img.intro {
 	padding: 10px 20px;
 }
 
-.item-page {
-    padding:0 40px;
+.row, .row-fluid {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row .span4 > p {
+    /*color:#555;*/
+}
+
+.row .span4 > p,
+.row-fluid .span4 > p {
+    margin: 0 20px;
+    text-align: left;
+}
+
+.img-circle {
+    box-shadow: 1px 3px 3px rgba(1, 0, 0, 0.7);
+    margin-bottom: 15px;
+}
+
+.item-page,
+.category-list {
+    padding:0 20px;
+    text-align: center;
 }
 
 .item-page > h2 {
-    text-align: center;
     text-transform: uppercase;
     /*font-family: Apple Chancery;*/
     font-size: 40px;
     font-weight: bold;
-}
-
-.item-page > h4 {
-    list-style: decimal;
-    text-align: center;
 }

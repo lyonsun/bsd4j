@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
-<install version="2.5" type="template" method="upgrade">
+<extension
+	version="2.5"
+	type="template"
+	client="site">
 	<name>bsd4j</name>
 	<creationDate>2013-02-22</creationDate>
 	<author>Liang Sun</author>
@@ -23,7 +26,9 @@
 	<positions>
 		<position>debug</position>
 		<postion>navbar</postion>
-		<position>latestnews</position>
+		<position>intro</position>
+		<position>breadcrumbs</position>
+		<position>footer</position>
 		<position>position-0</position>
 		<position>position-1</position>
 		<position>position-2</position>
@@ -41,4 +46,4 @@
 		<position>position-14</position>
 		<position>position-xyz</position>
 	</positions>
-</install>
+</extension>
